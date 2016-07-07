@@ -207,15 +207,15 @@ table {
 
 /*--------------------------------Start hours----------------------------------*/
 
-/*#hours {*/
-/* background-color: #8e5942;*/
-/* height: 220px;*/
-/* font: 300 2.1em 'Oswald';*/
-/* color: #f2f2f2;*/
-/*}*/
+#hours {
+ background-color: #8e5942;
+ height: 220px;
+ font: 300 2.1em 'Oswald';
+ color: #f2f2f2;
+}
 
 
-/*#footer {
+#footer {
  background-color: #be5f27;
  height: 230px;
 }
@@ -235,25 +235,25 @@ font-weight: bold;
  transform: translateY(-50%);
  text-align: center;
 
-/*.contentImages {*/
-/*   width: 100%;*/
-/*}*/
+.contentImages {
+   width: 100%;
+}
 
 
-/*.words {*/
-/*   font: 700 2.5em 'Oswald';*/
-/*   line-height: 2em;*/
-/*   color: #c3bbac;*/
-/*   text-align: center;*/
-/*}*/
+.words {
+   font: 700 2.5em 'Oswald';
+   line-height: 2em;
+   color: #c3bbac;
+   text-align: center;
+}
 
-/*#whiteLogo {*/
-/*   width: 100px;*/
-/*}*/
+#whiteLogo {
+   width: 100px;
+}
 
-/*.footerImg {*/
- /*margin-right: -50%;*/
-/*}
+.footerImg {
+ margin-right: -50%;
+}
 
 .socialMedia {
    height: 38px;
