@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -104,13 +103,21 @@ table {
 #aboutSection {
    position: absolute;
    height: 500px;
+   width: 100%;
+   display: inline;
+}
+
+#about {
+  color: #303030;
+  height: 100%;
+  display: inline-block
 }
 
 #p1 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding: 25px 190px 75px 100px;
+  padding: 25px 190px 75px 85px;
   margin: -80px 20px 100px 0;
   text-align: left;
   font: 400 1em "Lato";
@@ -122,8 +129,10 @@ table {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding: 10px 170px 75px 100px;
+  padding: 10px 170px 75px 85px;
   margin: -140px 20px 0 0; 
+  font: 400 1em "Lato";
+  line-height: 1.6em;
 }
 
 #more {
@@ -134,7 +143,7 @@ table {
   top: 50%;
   transform: translateY(-50%);
   margin: -120px 80px 0 0; 
-  padding-left: 97px; 
+  padding-left: 85px; 
 }
 
 #more a {
@@ -148,12 +157,44 @@ table {
   color: #d49b3c;
 }
 
+#cakeList {
+  background-color: #e0d7c5;
+  height: 500px; 
+  padding: 50px 50px 0 50px;
+  height: 100%;
+  display: inline-block;
+}
+
+#cakeIcon {
+  width: 80px;
+  position: relative; 
+  margin-left: 43%; 
+  margin-top: -50px; 
+  padding-top: 40px; 
+}
+
+.list {
+    font: 700 3.25em 'Oswald';
+    line-height: 2.5em;
+    color: #f2f2f2;
+    
+}
+
+.list li {
+    margin-bottom: -85px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
 
 #fix {
   background-color: #d49b30;
-  position: relative;;
+  text-align: center;
+  height: 60px;
+  position: absolute;
   z-index: 1;
-  margin: 0 auto;
+  width: 15%;
+  display: inline; 
+  left: 557px;
 }
 
 #fix h1 {
@@ -163,18 +204,15 @@ table {
   display: inline-block;
 }
 
-#about {
-  font: 400 1em 'Lato';
-  line-height: 1.6em;
-  color: #303030;
-  height: 500px;
-}
 
-#cakeList {
-  background-color: #e0d7c5;
-  height: 500px; 
+/*--------------------------------Start hours----------------------------------*/
 
-
+/*#hours {*/
+/* background-color: #8e5942;*/
+/* height: 220px;*/
+/* font: 300 2.1em 'Oswald';*/
+/* color: #f2f2f2;*/
+/*}*/
 
 
 /*#footer {
@@ -184,12 +222,7 @@ table {
 .footer {
  text-align: center;
 }
-#hours {
- background-color: #8e5942;
- height: 220px;
- font: 300 2.1em 'Oswald';
- color: #f2f2f2;
-}
+
 
 
 span {
@@ -206,10 +239,6 @@ font-weight: bold;
 /*   width: 100%;*/
 /*}*/
 
-/*#icons {*/
-/*   width: 80px;*/
-/*   margin: 0 auto;*/
-/*}*/
 
 /*.words {*/
 /*   font: 700 2.5em 'Oswald';*/
@@ -217,15 +246,6 @@ font-weight: bold;
 /*   color: #c3bbac;*/
 /*   text-align: center;*/
 /*}*/
-
-/*ul {*/
-/*   list-style: none;*/
-/*   font: 700 3.25em 'Oswald';*/
-/*   line-height: 2.5em;*/
-/*   color: #f2f2f2;*/
-/*}*/
-
-
 
 /*#whiteLogo {*/
 /*   width: 100px;*/
